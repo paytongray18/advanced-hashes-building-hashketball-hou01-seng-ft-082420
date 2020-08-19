@@ -90,5 +90,6 @@ def game_hash(data)
         :blocks => "5",
         :slam_dunks => "5"
       },
+      { 
       }]
     }
