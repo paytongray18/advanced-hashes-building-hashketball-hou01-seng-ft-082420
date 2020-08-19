@@ -1,3 +1,5 @@
+require 'pry'
+
 def game_hash(data)
   game = {
     :home => {
@@ -56,7 +58,7 @@ def game_hash(data)
         }
       ]
     }
-    away: {
+    :away => {
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise","Purple"]
       :players => [{
