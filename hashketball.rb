@@ -23,7 +23,7 @@ def game_hash(data)
         :steals => "12",
         :blocks => "12",
         :slam_dunks => "7"
-        }
+        },
         {:player_name => "Brook Lopez",
         :number => "11",
         :shoe => "17",
@@ -33,7 +33,7 @@ def game_hash(data)
         :steals => "3",
         :blocks => "1",
         :slam_dunks => "15"
-        }
+        },
         {:player_name => "Mason Plumlee",
         :number => "1",
         :shoe => "19",
@@ -43,7 +43,7 @@ def game_hash(data)
         :steals => "3",
         :blocks => "8",
         :slam_dunks => "5"
-        }
+        },
         {:player_name => "Jason Terry",
         :number => "31",
         :shoe => "15",
@@ -54,4 +54,5 @@ def game_hash(data)
         :blocks => "11",
         :slam_dunks => "1"
         }
+      ]
     }
