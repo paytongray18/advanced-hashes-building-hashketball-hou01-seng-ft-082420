@@ -3,6 +3,7 @@ require 'pry'
 def game_hash(data)
   hash = {
     :home => {
+    binding.pry 
       :team_name => "Brooklyn Nets",
       :colors => ["Black","White"],
       :players => [{
@@ -16,7 +17,6 @@ def game_hash(data)
         :blocks => "1",
         :slam_dunks => "1"
       },
-      binding.pry
         {:player_name => "Reggie Evans",
         :number => "30",
         :shoe => "14",
